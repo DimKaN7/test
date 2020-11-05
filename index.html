@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div class="main-container">
+    <form class="license-window">
+      <div class="license-plans">
+        <div class="license-plan selected">
+          <input class="radio" checked type="radio" name="radio-group">
+          <div class="plan-description">
+            <span class="license-type">License plan #1</span>
+            <span class='license-price'>$13 per license</span>
+          </div>
+        </div>
+        <div class="license-plan">
+          <input class="radio" type="radio" name="radio-group">
+          <div class="plan-description">
+            <span class="license-type">License plan #2</span>
+            <span class='license-price'>$22 per license</span>
+          </div>
+        </div>
+        <div class="license-plan">
+          <input class="radio" type="radio" name="radio-group">
+          <div class="plan-description">
+            <span class="license-type">License plan #3</span>
+            <span class='license-price'>$34 per license</span>
+          </div>
+        </div>
+      </div>
+      <div class="license-number">
+        <span>Number of licenses:</span>
+        <select class="number">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+        </select>
+      </div>
+      <div class="license-controls">
+        <div class="controls__total">
+          <span class="total">TOTAL:</span>
+          <span class="price">$13<sup>us</sup></span>
+        </div>
+        <button class="buy" type="submit">BUY NOW</button>
+        <div class="selected-plan">
+          <span>Selected plan: </span>
+          <span class="plan">#1</span>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
